@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Frontend Mentor | Ping coming soon page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="header">
+            <img src="./images/logo.svg" alt="Ping logo">
+        </header>
+
+        <main class="content">
+            <h1 class="content__heading">We are launching <span>soon!</span></h1>
+            <p class="content__subheading">Subscribe and get notified</p>
+            <form class="form">
+                <div class="form__input">
+                    <input type="email" placeholder="Your email adress..." aria-label="E-mail form field">
+                    <p class="form__info">Whoops! It looks like you forgot to add your email</p>
+                </div>
+                <button class="form__button">Notify Me</button>
+            </form>
+            <div class="content__photo">
+                <img src="./images/illustration-dashboard.png" alt="Dashboard illustration">
+            </div>
+        </main>
+
+        <footer class="footer">
+            <ul class="social">
+                <li class="social__link"><a href="#" aria-label='Facebook'>
+                        <svg class="social__icon">
+                            <use xlink:href="./images/social-icon-sprite.svg#facebook-f"></use>
+                        </svg>
+                    </a></li>
+                <li class="social__link"><a href="#" aria-label='Twitter'><svg class="social__icon">
+                            <use xlink:href="./images/social-icon-sprite.svg#twitter"></use>
+                        </svg>
+                    </a></li>
+                <li class="social__link"><a href="#" aria-label='Instagram'><svg
+                            class="social__icon">
+                            <use xlink:href="./images/social-icon-sprite.svg#instagram"></use>
+                        </svg>
+                    </a></li>
+            </ul>
+            <p class="footer__copy">&copy; Copyright Ping. All rights reserved.</p>
+        </footer>
+
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
